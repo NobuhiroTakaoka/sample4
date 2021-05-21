@@ -143,6 +143,12 @@ header {
     text-decoration: none;
 }
 
+.new-blog-list:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+
 .main:after {
     clear: both;
     display: block;
